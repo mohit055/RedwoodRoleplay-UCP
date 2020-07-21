@@ -71,12 +71,6 @@ input[type=text], input[type=password]{
     transition: all ease-in-out 0.25s;
 }
 
-input[type=text]:hover, input[type=password]:hover{
-    width: 320px;
-    height: 50px;
-    font-size: 19px;
-}
-
 ::placeholder{
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
@@ -138,19 +132,13 @@ input[type=text]:hover, input[type=password]:hover{
     position: relative;
     background-color: rgb(143, 143, 143);
     width: 80%;
-    height: 50%;
+    height: 350px;
 }
 
 .modal-form h1{
     color: rgb(46, 45, 45);
     padding-top: 22px;
     margin-bottom: 17px;
-}
-
-.modal-form input[type=text]:hover, input[type=password]:hover{
-    width: 320px;
-    height: 45px;
-    font-size: 18.5px;
 }
 
 .modal-form button{
@@ -222,12 +210,6 @@ input[type=text]:hover, input[type=password]:hover{
         margin-bottom: 30px;
     }
 
-    input[type=text]:hover, input[type=password]:hover{
-        width: 420px;
-        height: 60px;
-        font-size: 20px;
-    }
-
     .button{
         width: 150px;
         height: 40px;
@@ -237,18 +219,12 @@ input[type=text]:hover, input[type=password]:hover{
     /* Sign-Up Modal */
 
     .modal{
-        width: 50%;
-        height: 50%;
+        width: 550px;
+        height: 410px;
     }
 
     .modal-form h1{
         margin-bottom: 21px;
-    }
-
-    .modal-form input[type=text]:hover, input[type=password]:hover{
-        width: 420px;
-        height: 50px;
-        font-size: 19.5px;
     }
 }
 
